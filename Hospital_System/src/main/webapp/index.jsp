@@ -6,6 +6,29 @@
 <meta charset="UTF-8">
 <title>Home Page</title>
 <%@include file="component/allcss.jsp" %>
+
+
+<style type="text/css">
+
+	.carousel-item:after{
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0,0,0,0.1);
+	}
+	
+	.carousel-caption{
+		top: 70%;
+	}
+	
+	.paint-card {
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+	}
+</style>
 </head>
 <body>
 
@@ -44,53 +67,65 @@
 	
 	<div class="container p-3">
 		<p class="text-center fs-2">Key Features of our Hospital</p>
-		
-		<div class="row">
-			<div class="col-md-8 p-5">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="card-paint-card">
-							<div class="card-body">
-								<p class="fs-5">100% safety</p>
-								<p>Lorem ispum</p>
+			<div class="row">
+				<div class="col-md-8 p-5">
+					<div class="row">
+					
+						<div class="col-md-6">
+							<div class="card paint-card">
+								<div class="card-body">
+									<p class="fs-5">100% safety</p>
+									<p>Lorem ispum</p>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card paint-card">
-						<div class="card-body">
-							<p class="fs-5">Clean Environment</p>
-							<p>Clean Environment</p>
+						
+						<div class="col-md-6">
+							<div class="card paint-card">
+								<div class="card-body">
+									<p class="fs-5">Clean Environment</p>
+									<p>Clean Environment</p>
+								</div>
+							</div>
 						</div>
-					</div>
+					
+						<div class="col-md-6 mt-2">
+							<div class="card paint-card">
+								<div class="card-body">
+									<p class="fs-5">Friendly Doctors</p>
+									<p>Clean Environment</p>
+								</div>
+							</div>
+						</div>
+					
+						<div class="col-md-6 mt-2">
+							<div class="card paint-card">
+								<div class="card-body">
+									<p class="fs-5">Medical Research</p>
+									<p>Clean Environment</p>
+								</div>
+							</div>
+						</div>
+					</div>	
 				</div>
 				
-				<div class="col-md-6 mt-2">
-					<div class="card paint-card">
-						<div class="card-body">
-							<p class="fs-5">Friendly Doctors</p>
-							<p>Clean Environment</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-6 mt-2">
-					<div class="card paint-card">
-						<div class="card-body">
-							<p class="fs-5">Medical Research</p>
-							<p>Clean Environment</p>
-						</div>
-					</div>
+				<div class="col-md-4">
+					<img alt="" src="image/Doctor (4).jpg" height=400px>
 				</div>
 				
 			</div>
+			
 		</div>
-		
-		<div class="col-md-4">
-			<img alt="...." src="image/Doctor (4).jpg">
+	
+	<hr>
+	
+	<div class="container p-2">
+		<p class="text-center fs-2">Our Team</p>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card paint"></div>
+			</div>
 		</div>
-		
 	</div>
 	
 </body>
