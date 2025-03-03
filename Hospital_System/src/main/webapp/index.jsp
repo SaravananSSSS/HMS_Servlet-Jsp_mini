@@ -106,12 +106,15 @@
 								</div>
 							</div>
 						</div>
+						
+						
+						
 					</div>	
 				</div>
 				
-				<div class="col-md-4">
-					<img alt="" src="image/Doctor (4).jpg" height=400px>
-				</div>
+					<div class="col-md-4">
+						<img alt="" src="image/Doctor (13).jpg" height="300px"  width="300px" >
+					</div>
 				
 			</div>
 			
@@ -121,12 +124,52 @@
 	
 	<div class="container p-2">
 		<p class="text-center fs-2">Our Team</p>
+		
 		<div class="row">
 			<div class="col-md-3">
-				<div class="card paint"></div>
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img alt="" src="image/Doctor (7).jpg" width="200px" height="250px">
+						<p class="fw-bold fs-5">Samuani simi</p>
+						<p class="fs-7">(CEO & Chairman)</p>
+					</div>
+				</div>
 			</div>
+			
+			<div class="col-md-3">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img src="image/Doctor (8).jpg" width="200px" height="250px">
+						<p class="fw-bold fs-5">Dr.Siva Kumar</p>
+						<p class="fs-7">(Chief Doctor)</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-3">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img alt="" src="image/Doctor (9).jpg" width="200px" height="250px">
+						<p class="fw-bold fs-5">Samuani simi</p>
+						<p class="fs-7">(CEO & Chairman)</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-3">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img alt="" src="image/Doctor (3).jpg" width="200px" height="250px">
+						<p class="fw-bold fs-5">Samuani simi</p>
+						<p class="fs-7">(CEO & Chairman)</p>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 	</div>
-	
+
+<%@include file="component/footer.jsp" %>
+
 </body>
 </html>
