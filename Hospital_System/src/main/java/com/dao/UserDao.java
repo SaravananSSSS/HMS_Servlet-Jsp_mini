@@ -90,7 +90,7 @@ public class UserDao {
 		boolean f = false;
 
 		try {
-			String sql = "update user_tbl set password=? where id=?";
+			String sql = "update user_dtls set password=? where id=?";
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setString(1, newPassword);
 			ps.setInt(2, userid);
