@@ -1,6 +1,6 @@
 <%@page import="com.entity.Doctor"%>
 <%@page import="com.dao.DoctorDao"%>
-<%@page import="com.entity.Specalist"%>
+<%@page import="com.entity.Specialist"%>
 <%@page import="java.util.List"%>
 <%@page import="com.db.DBConnect"%>
 <%@page import="com.dao.SpecialistDao"%>
