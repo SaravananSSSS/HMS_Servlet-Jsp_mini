@@ -1,3 +1,7 @@
+<%@page import="com.db.DBConnect" %>
+<%@page import="java.sql.Connection" %>
+
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -32,7 +36,8 @@
 </head>
 <body>
 
-<%@include file="component/navbar.jsp" %>
+<%@ include file="component/navbar.jsp" %>
+
 	
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 	  <div class="carousel-indicators">
@@ -131,7 +136,7 @@
 					<div class="card-body text-center">
 						<img alt="" src="image/Doctor (7).jpg" width="200px" height="250px">
 						<p class="fw-bold fs-5">Samuani simi</p>
-						<p class="fs-7">(CEO & Chairman)</p>
+						<p class="fs-7">(CEO &amp; Chairman)</p>
 					</div>
 				</div>
 			</div>
@@ -151,7 +156,8 @@
 					<div class="card-body text-center">
 						<img alt="" src="image/Doctor (9).jpg" width="200px" height="250px">
 						<p class="fw-bold fs-5">Samuani simi</p>
-						<p class="fs-7">(CEO & Chairman)</p>
+						<p class="fs-7">(CEO &amp; Chairman)</p>
+
 					</div>
 				</div>
 			</div>
@@ -161,7 +167,7 @@
 					<div class="card-body text-center">
 						<img alt="" src="image/Doctor (3).jpg" width="200px" height="250px">
 						<p class="fw-bold fs-5">Samuani simi</p>
-						<p class="fs-7">(CEO & Chairman)</p>
+						<p class="fs-7">(CEO &amp; Chairman)</p>
 					</div>
 				</div>
 			</div>
